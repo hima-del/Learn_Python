@@ -37,3 +37,11 @@ reverse()	Reverses the order of the list
 sort()	Sorts the list
 ```
 
+**Tuple Methods**
+
+* Python has two built-in methods that you can use on tuples.
+
+```
+count()	Returns the number of times a specified value occurs in a tuple
+index()	Searches the tuple for a specified value and returns the position of where it was found
+```
