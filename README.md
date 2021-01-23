@@ -90,4 +90,10 @@ values()	Returns a list of all the values in the dictionary
 
 **Python break and continue statements**
 
+* The Python break statement immediately terminates a loop entirely. 
+* Program execution proceeds to the first statement following the loop body.
+
+* The Python continue statement immediately terminates the current loop iteration.
+* Execution jumps to the top of the loop, and the controlling expression is re-evaluated to determine whether the loop will execute again or terminate.
+
 !(https://github.com/hima-del/Learn_Python/blob/master/06_loops/images/t.webp)
