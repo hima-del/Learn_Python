@@ -90,4 +90,4 @@ values()	Returns a list of all the values in the dictionary
 
 **Python break and continue statements**
 
-!https://github.com/hima-del/Learn_Python/blob/master/06_loops/images/t.webp
+!(https://github.com/hima-del/Learn_Python/blob/master/06_loops/images/t.webp)
