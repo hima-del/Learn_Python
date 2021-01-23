@@ -87,3 +87,7 @@ setdefault()	Returns the value of the specified key. If the key does not exist: 
 update()	Updates the dictionary with the specified key-value pairs
 values()	Returns a list of all the values in the dictionary
 ```
+
+**Python break and continue statements**
+
+!https://github.com/hima-del/Learn_Python/blob/master/06_loops/images/t.webp
