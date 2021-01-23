@@ -1,3 +1,5 @@
+mylist=list(("anna","mary","jenna"))
+print(mylist)
 thelist=["apple","orange","banana"]
 veg=["carrot","tomato","potato"]
 print(thelist)
