@@ -18,6 +18,15 @@ Binary Types:	bytes, bytearray, memoryview
 for x in range(6):
   print(x)
 ```  
+
+**Iterators in Python**
+
+* Iterator in Python is simply an object that can be iterated upon. 
+* An object which will return data, one element at a time.
+* Technically speaking, a Python iterator object must implement two special methods, `__iter__()` and `__next__()`, collectively called the iterator protocol.
+* An object is called iterable if we can get an iterator from it. 
+* Most built-in containers in Python like: list, tuple, string etc. are iterables.
+* The `iter()` function (which in turn calls the `__iter__()` method) returns an iterator from them
   
 
 **Python Collections (Arrays)**
@@ -107,3 +116,14 @@ values()	Returns a list of all the values in the dictionary
 * Execution jumps to the top of the loop, and the controlling expression is re-evaluated to determine whether the loop will execute again or terminate.
 
 !(https://github.com/hima-del/Learn_Python/blob/master/06_loops/images/t.webp)
+
+
+**What are lambda functions in Python?**
+
+* Normal functions are defined using the def keyword in Python, anonymous functions are defined using the lambda keyword.
+* Anonymous functions are also called lambda functions.
+
+* Syntax of Lambda Function in python
+```
+lambda arguments: expression
+```
