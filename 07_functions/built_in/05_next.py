@@ -1,0 +1,10 @@
+#The next() function returns the next item in an iterator.
+mylist=iter(["apple","orange","banana"])
+x=next(mylist)
+print(x)
+x=mylist.__next__()
+print(x)
+x=mylist.__next__()
+print(x)
+x=next(mylist)
+print(x)
