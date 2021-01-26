@@ -5,7 +5,7 @@ class Dog:
         self.name=name
         self.age=age
     #instance method
-    def __str__(self):
+    def __repr__(self):
         return f"{self.name} is {self.age} years old"
 
     def speak(self,sound):
