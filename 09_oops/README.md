@@ -27,3 +27,25 @@
 * However, each object maintains its own copy of the attributes.
 * Class behavior is shared by each of its objects, whereas state is not. 
 * Each object maintains its own state
+
+
+* A class is a blueprint for how something should be defined. 
+* It doesn’t actually contain any data. 
+* The Dog class specifies that a name and an age are necessary for defining a dog, but it doesn’t contain the name or age of any specific dog.
+* An instance is an object that is built from a class and contains real data. 
+* An instance of the Dog class is not a blueprint anymore.
+* It’s an actual dog with a name, like Miles, who’s four years old.
+* Put another way, a class is like a form or questionnaire.
+* An instance is like a form that has been filled out with information. 
+* Just like many people can fill out the same form with their own unique information, many instances can be created from a single class.
+
+* The properties that all Dog objects must have are defined in a method called `__init__()`
+* Every time a new Dog object is created, `__init__()` sets the initial state of the object by assigning the values of the object’s properties. 
+* `__init__()` initializes each new instance of the class.
+* You can give `__init__()` any number of parameters, but the first parameter will always be a variable called `self`. 
+* When a new class instance is created, the instance is automatically passed to the `self` parameter in `__init__()` so that new attributes can be defined on the object.
+* Attributes created in `__init__()` are called instance attributes. 
+* An instance attribute’s value is specific to a particular instance of the class.
+* All Dog objects have a name and an age, but the values for the name and age attributes will vary depending on the Dog instance.
+* Class attributes are attributes that have the same value for all class instances. 
+* You can define a class attribute by assigning a value to a variable name outside of `__init__()`
