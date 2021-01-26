@@ -127,3 +127,22 @@ values()	Returns a list of all the values in the dictionary
 ```
 lambda arguments: expression
 ```
+
+**The try and except Block: Handling Exceptions**
+
+* The try and except block in Python is used to catch and handle exceptions.
+* Python executes code following the try statement as a “normal” part of the program.
+* The code that follows the except statement is the program’s response to any exceptions in the preceding try clause.
+
+```
+try:
+    <do something>
+except Exception:
+    <handle the error>
+ ```
+ 
+* try: the code with the exception(s) to catch. If an exception is raised, it jumps straight into the except block.
+* except: this code is only executed if an exception occured in the try block. The except block is required with a try block, even if it contains only the pass statement.
+* else: Code in the else block is only executed if no exceptions were raised in the try block.
+* finally: The code in the finally block is always executed, regardless of if a an exception was raised or not
+    
