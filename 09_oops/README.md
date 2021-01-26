@@ -49,3 +49,6 @@
 * All Dog objects have a name and an age, but the values for the name and age attributes will vary depending on the Dog instance.
 * Class attributes are attributes that have the same value for all class instances. 
 * You can define a class attribute by assigning a value to a variable name outside of `__init__()`
+* Use class attributes to define properties that should have the same value for every class instance. 
+* Use instance attributes for properties that vary from one instance to another.
+
