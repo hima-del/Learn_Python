@@ -126,6 +126,7 @@ values()	Returns a list of all the values in the dictionary
 * Anonymous functions are also called lambda functions.
 
 * Syntax of Lambda Function in python
+
 ```
 lambda arguments: expression
 ```
