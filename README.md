@@ -136,7 +136,6 @@ lambda arguments: expression
 * Python executes code following the try statement as a “normal” part of the program.
 * The code that follows the except statement is the program’s response to any exceptions in the preceding try clause.
 
-
 ```
 try:
     <do something>
