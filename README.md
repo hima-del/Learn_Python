@@ -148,4 +148,3 @@ except Exception:
 * except: this code is only executed if an exception occured in the try block. The except block is required with a try block, even if it contains only the pass statement.
 * else: Code in the else block is only executed if no exceptions were raised in the try block.
 * finally: The code in the finally block is always executed, regardless of if a an exception was raised or not
-    
